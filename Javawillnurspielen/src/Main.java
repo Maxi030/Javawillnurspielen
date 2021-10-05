@@ -6,7 +6,9 @@ public class Main {
 		Vertex v2 = new Vertex(42, 23);
 		Vertex v3 = new Vertex(0, 0);
 		Vertex v4 = new Vertex(42, 23);
-
+		
+		
+		
 		System.out.println(v2);
 		System.out.println(v1.length());
 		System.out.println(v2.length());
