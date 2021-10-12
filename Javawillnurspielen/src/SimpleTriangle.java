@@ -1,6 +1,6 @@
 
 public class SimpleTriangle extends GeometricObject {
-	
+
 	public SimpleTriangle(double w, double h, Vertex pos) {
 		super(w, h, pos);
 	}
@@ -11,7 +11,7 @@ public class SimpleTriangle extends GeometricObject {
 
 	@Override
 	public double area() {
-		return width*width / 4*Math.sqrt(3);
+		return width * width / 4 * Math.sqrt(3);
 	}
 
 	@Override
