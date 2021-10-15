@@ -1,7 +1,7 @@
 
 public class SimpleSquare extends GeometricObject {
 public SimpleSquare(double w, Vertex pos) {
-	(w, pos);
+	//(w, pos);
 }
 
 public SimpleSquare(double w, double x, double y) {
