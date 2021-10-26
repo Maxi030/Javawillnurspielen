@@ -21,6 +21,16 @@ public class Main {
 		JFrame f = new JFrame("Mein erstes Rechteck");
 		f.add(new FirstPanel());
 		f.setVisible(true);
+		
+		
+		
+		
+		Hund Hund1 = new Hund(31.4 ,"Dog", 4);
+		System.out.println(Hund1.getLautstaerkeDB());
 	}
 
 }
+
+
+
+
