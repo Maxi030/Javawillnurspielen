@@ -7,6 +7,5 @@ public class FirstPanel extends JPanel {
 	public void paintComponent(java.awt.Graphics g) {
 		g.setColor(Color.RED);
 		g.fillRect(30, 50, 45, 80);
-	
 	}   
 }
