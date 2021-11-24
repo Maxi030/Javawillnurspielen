@@ -7,7 +7,7 @@ public class PaintablePanel extends SizedPanel  {
 		this.pa=pa;
 	}
 	
-	public void PaintComponent(java.awt.Graphics g) {
+	public void paintComponent(java.awt.Graphics g) {
 		pa.paintTo(g);
 	}	
 		

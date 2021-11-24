@@ -19,7 +19,7 @@ public class SizedPanel extends JPanel  {
 		return new Dimension(prefferedwidth,prefferedheight); }
 	
 	public static void main(String[] args) {
-		ShowInFrame.show(new SimpleSizePanel());
+		ShowInFrame.show(new SizedPanel());
 	
 	
 	

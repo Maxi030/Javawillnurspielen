@@ -10,7 +10,7 @@ public class ShowInFrame {
 		f.add(c);	
 		f.pack();
 		f.setVisible(true);
-		
+		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 	
 	public static void show(JComponent c) {
