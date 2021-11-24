@@ -7,8 +7,6 @@ public class SimpleSizedPanel extends SizedPanel {
 		g.fillRect(30, 50, 45, 80);
 	}
     
-	public static void main(String[] args) {
-		ShowInFrame.show("Erstes Rechteck", new SimpleSizedPanel());
-
-	}
+	
+	
 }

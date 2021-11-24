@@ -1,13 +1,13 @@
 import javax.swing.JFrame;
 
+import util.ShowInFrame;
+
 public class Main {
 
 	public static void main(String[] args) {
 	
 
-		JFrame f = new JFrame("Mein erstes Rechteck");
-		f.add(new FirstPanel());
-		f.setVisible(true);
+		ShowInFrame.show("Erstes Rechteck", new SimpleSizedPanel());
 		
 		
 	}
