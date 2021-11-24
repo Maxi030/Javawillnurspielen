@@ -1,4 +1,4 @@
-import javax.swing.*:
+import javax.swing.*;
 import util.ShowInFrame; 
 import java.awt.Color;
 public class SimpleSizePanel extends SizedPanel {
