@@ -3,6 +3,8 @@ import java.awt.Color;
 
 public class FirstPanel extends JPanel {
 
+
+
 	@Override
 	public void paintComponent(java.awt.Graphics g) {
 		g.setColor(Color.RED);
