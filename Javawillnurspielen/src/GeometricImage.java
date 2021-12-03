@@ -25,16 +25,7 @@ public class GeometricImage extends GeometricObject implements Paintable{
 	public void paintTo(java.awt.Graphics g) {
 		icon.paintIcon(null, g,(int)pos.x,(int)pos.y);
 	}
-	public void main(String[] args) {
-		GeometricImage gi = new GeometricImage("png-transparent-geometry-dash-alien-isolation-computer-icons-game-dash-miscellaneous-video-game-snout.png",10,10);
-		System.out.println(gi.width);
-		System.out.println(gi.height);
-		ShowInFrame.show(new PaintablePanel(gi));
-		GeometricImage sword = new GeometricImage("sword.png",10,10);
-		System.out.println(sword.width);
-		System.out.println(sword.height);
-		ShowInFrame.show(new PaintablePanel(sword));
-	}
+	
 	
 	
 	
