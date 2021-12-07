@@ -5,18 +5,19 @@ import util.ShowInFrame;
 import java.awt.Dimension;
 public class SizedPanel extends JPanel  {
 
-	int prefferedwidth=400;
-	int prefferedheight=300;
+	int preferredwidth=800;
+	int preferredheight=800;
 	
 	public SizedPanel(int w,int h) {
-		prefferedwidth=w;
-		prefferedheight=h;}
+		preferredwidth=w;
+		preferredheight=h;}
 		
 	public SizedPanel() {}
 	
 	
-	public Dimension getPrefferedSize() {
-		return new Dimension(prefferedwidth,prefferedheight); }
+	@Override public Dimension getPreferredSize() {
+		return new Dimension(preferredwidth,preferredheight); }
 	
 	
 }
+ 
