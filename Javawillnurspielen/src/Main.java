@@ -35,11 +35,21 @@ public class Main {
 		
 		//ShowInFrame.show("Oval",new PaintablesPanels(ps));*/
 		
-		ButtonAnimation b = new ButtonAnimation();
+		/*ButtonAnimation b = new ButtonAnimation();
 		MoveablePanel p= new SimpleAnimation();
-		p.gos.add(new MoveableImage("biene.png",0,0,1,1));
+		p.gos.add(new MoveableImage("bat.png",0,0,1,1));
 		p.gos.add(new MoveableImage("hexe.png",600,600,10,10)); 
-		ShowInFrame.show(p);
+		ShowInFrame.show(p);                                       //für simpleAnimation
+		
+		/*MoveablePanel p2 = new AnimationPanel();
+		p2.gos.add(new MoveableImage("bat.png",0,0,1,1));
+		p2.gos.add(new MoveableImage("hexe.png",400,400,-1,-1));
+		ShowInFrame.show(p2);*/  //für animationPanel
+		
+		MoveablePanel p3 = new RemoveAnimation();
+		p3.gos.add(new MoveableImage("bat.png",0,0,1,1));
+		p3.gos.add(new MoveableImage("hexe.png",400,400,-1,-1));
+		ShowInFrame.show(p3);
 		
 		
 		//Paintable pa[] = {new PaintableOval(100,50,50,100),new PaintableOval(50,30,50,50)} ;

@@ -20,7 +20,7 @@ public class GeometricImage extends GeometricObject implements Paintable{
 	}
 	void init() {
 		width = icon.getImage().getWidth(icon.getImageObserver());
-		width = icon.getImage().getHeight(icon.getImageObserver());
+		height = icon.getImage().getHeight(icon.getImageObserver());
 	}
 	public void paintTo(java.awt.Graphics g) {
 		icon.paintIcon(null, g,(int)pos.x,(int)pos.y);
