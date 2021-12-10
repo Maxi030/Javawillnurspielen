@@ -13,11 +13,11 @@ public class RemoveAnimation extends AnimationPanel {
 	                } else {
 	                    toRemove.add(g1);
 	                }
-	                
+	               
 	            }
 	        }
 	    }
 	    System.out.println(toRemove);
-	  	 gos.removeAll(toRemove);
+	  	gos.removeAll(toRemove);
 	}
 }

@@ -35,11 +35,10 @@ public class Main {
 		
 		//ShowInFrame.show("Oval",new PaintablesPanels(ps));*/
 		
-		/*ButtonAnimation b = new ButtonAnimation();
-		MoveablePanel p= new SimpleAnimation();
-		p.gos.add(new MoveableImage("bat.png",0,0,1,1));
-		p.gos.add(new MoveableImage("hexe.png",600,600,10,10)); 
-		ShowInFrame.show(p);                                       //für simpleAnimation
+		//ButtonAnimation b = new ButtonAnimation();
+		/*MoveablePanel p= new MouseControlledAnimation(new MoveableImage("hexe.png",400,400,-1,-1));
+		p.gos.add(new MoveableImage("bat.png",0,0,1,1)); 
+		ShowInFrame.show(p);*/                                  //für simpleAnimation
 		
 		/*MoveablePanel p2 = new AnimationPanel();
 		p2.gos.add(new MoveableImage("bat.png",0,0,1,1));
@@ -51,6 +50,10 @@ public class Main {
 		p3.gos.add(new MoveableImage("hexe.png",400,400,-1,-1));
 		ShowInFrame.show(p3);
 		
+		/*MoveablePanel p4 = new AnimationPanel();
+		p4.gos.add(new MoveableImage("lindner.png",0,0,1,1));
+		p4.gos.add(new MoveableImage("bubatz.png",400,400,-1,-1));
+		ShowInFrame.show(p4);*/
 		
 		//Paintable pa[] = {new PaintableOval(100,50,50,100),new PaintableOval(50,30,50,50)} ;
 	}

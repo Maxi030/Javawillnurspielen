@@ -2,7 +2,7 @@ import java.util.List;
 
 public class AnimationPanel extends SimpleAnimation {
 
-	@Override public void doOnTick() {
+	@Override public void doOnTick()  {
 		move();
 		doChecks();
 		repaint();
@@ -15,12 +15,11 @@ public class AnimationPanel extends SimpleAnimation {
 					reactWhenTouching(g1,g2);
 	}
 	
-	void reactWhenTouching(GameObject g1,GameObject g2) {
+	void reactWhenTouching(GameObject g1,GameObject g2)  {
 		g1.turn();
 		g1.move();
-		g2.turn();
+		g2.turn(); 
 		g2.move();
-		
 	}
 	
 	
